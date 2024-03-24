@@ -1,0 +1,177 @@
+.friend-bottom{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+}
+
+.friend-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    height: 100%;
+    width: 300px;
+    background-color: var(--white-color);
+
+}
+
+.friend-content .btn{
+    text-align: left;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.friend-content .btn:hover{
+    background-color: var(--st-hover);
+}
+
+.icon-border{
+    width: 47px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: var(--normal-color3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-icon{
+    font-size: 30px;
+    margin-left: 70px;
+}
+.arrow-icon1{
+    font-size: 30px;
+    margin-left: 110px;
+}
+
+
+
+
+/* friends */
+
+.friend{
+    width: 100%;
+
+}
+
+/* Add */
+
+.friend-add-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 20px;
+}
+.friend-add-area{
+    display: none;
+}
+
+.nf-container{
+    width: 30%;
+    height: 130px;
+    display: flex;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    margin: 0 15px;
+
+}
+
+.nf-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border-right: 1px solid var(--box-shadow-color);
+}
+
+.nf-right{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    width: 70%;
+
+}
+
+.nf-avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.nf-name{
+    margin: 0 5% 10px;
+}
+
+.nf-request{
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 90%;
+    height: 40px;
+    cursor: pointer;
+    background-color: var(--text);
+    transition: 0.5s;
+}
+
+.nf-request:hover{
+    background-color: red;
+}
+
+
+/* Friend list */
+
+.friend-list-area{
+    display: none;
+}
+
+.friend-list-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.f-container{
+    width: 30%;
+    height: 130px;
+    display: flex;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    margin: 0 15px;
+
+}
+
+.f-left{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-right{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.f-avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.f-name{
+    margin: 0 5% 10px;
+}

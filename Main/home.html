@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="chung.css">
+    <link rel="stylesheet" href="post.css">
+    <title>Calisthenics VN</title>
+</head>
+<body>
+
+    <!-- Menu -->
+    <div class="top">
+        <div class="menu">
+
+<!-- mt -->
+
+            <div class="menu-left in-menu">
+                <div class="logo ml-item"></div>
+                <div class="find ml-item">
+                    <ion-icon name="search-outline"></ion-icon>
+                    <input type="text" placeholder=" Search">
+                </div>
+            </div>
+
+<!-- mb -->
+
+            <div class="menu-between in-menu">
+                <div class="home mb-item choose">
+                    <ion-icon name="home-outline"></ion-icon>
+                    <div class="text hide">
+                        <h1>home</h1>
+                    </div>
+                </div>
+                <div class="friends mb-item">
+                    <ion-icon name="people-outline"></ion-icon>
+                    <div class="text hide">
+                        <h1>friends</h1>
+                    </div>
+                </div>
+                <div class="more mb-item">
+                    <ion-icon name="reorder-three-outline"></ion-icon>
+                    <div class="text hide">
+                        <h1>more</h1>
+                    </div>
+                </div>
+            </div>
+
+<!-- mr -->
+
+            <div class="menu-right in-menu">
+                <div class="mr-item">
+                    <div class="my-avatar open-setting">
+                       <img class="avatar-user" src="../img/avatar7.jpg" alt=""> 
+                    </div>
+                    
+                </div>
+                <div class="setting-hide hide">
+                    <div class="setting">
+                        <div class="setting-top st-item">
+                            <div class="my-avatar">
+                                <img class="user-avatar avatar-user" src="../img/avatar7.jpg" alt="">
+                            </div>
+                            <h3 class="my-name"></h3>
+                        </div>
+                        <div class="st-item">
+                            <ion-icon name="settings-outline" class="s"></ion-icon>
+                            <h3 class="s">Setting</h3>
+                        </div>
+                        <div class="st-item">
+                            <ion-icon name="moon" class="s"></ion-icon>
+                            <h3 class="s">Dark mode</h3>
+                            <input type="checkbox" id="dark-mode-btn">
+                        </div>
+                        <div class="st-item logout">
+                            <ion-icon name="exit-outline" class="s"></ion-icon>
+                            <h3 class="s">Log out</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- bottom -->
+
+    <div class="bottom">
+        <div class="bottom-between">
+            <div class="container">
+                <div class="add">
+                    <div>
+                        <img class="user-avatar avatar-user" src="../img/avatar7.jpg" alt="">
+                    </div>
+                    <button class="new-post">What are you thinking about?</button>
+                </div>
+                <div class="posts">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal hide">
+        <div class="modal-backdrop">
+            <div class="modal-content">
+                <div class="content-top">
+                    <h2>Create a new post</h2>
+                    <button class="close-btn">X</button>
+                </div>
+                <div class="modal-bottom">
+                    <div class="user">
+                        <div class="my-avatar">
+                            <img class="user-avatar avatar-user" src="../img/avatar7.jpg" alt="">
+                        </div>
+                        <div class="user-name">
+                            <h3 class="my-name"></h3>
+                        </div>
+                    </div>
+                    <textarea type="text" oninput="haveText()" class="post-text" id="post-text" cols="30" rows="10"></textarea>
+                    <img class="test-img">
+                    <div class="img-area">
+                        <input type="file" name="" id="open-file" value="Add image">
+                    </div>
+
+                </div>
+                <div class="not-things modal-end">
+                    <button id="accept-post" class="accept-post not-thing">Post</button>
+                </div>
+                <div class="cancel hide"></div>
+            </div>
+        </div>
+    </div>
+    <script src="modal.js"></script>
+    <script src="chung.js"></script>
+
+    <script type="module" src="chung1.js"></script>
+    <script type="module" src="uploadimgpost.js"></script>
+    <script type="module" src="home.js"></script>
+</body>
+</html>

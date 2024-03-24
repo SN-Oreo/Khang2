@@ -1,0 +1,63 @@
+html{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    background-color: rgb(240, 240, 240);
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+
+.content{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 350px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgb(82, 82, 82);
+}
+
+.input{
+    background-color: rgb(234, 234, 234);
+    outline: none;
+    border: 1px rgb(114, 114, 114) solid;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 90%;
+    height: 35px;
+    padding-left: 10px;
+}
+.input:focus{
+    background-color: rgb(255, 226, 226);
+}
+.login-button, .signup-button{
+    background-color: rgb(255, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    margin: 30px 0;
+    height: 35px;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px black solid;
+
+}
+.login-button:hover, .signup-button:hover{
+    background-color: rgb(255, 113, 113);
+    font-family: "Poppins", sans-serif;
+    color: rgb(213, 213, 213);
+}

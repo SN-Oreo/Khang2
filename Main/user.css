@@ -1,0 +1,125 @@
+
+
+.profile{
+    /* margin-top: 100px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white-color);
+    border: 1px var(--box-shadow-color) solid;
+    box-shadow: 0 1.5px var(--box-shadow-color);
+}
+
+.background-photo{
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.background-user{
+    width: 100%;
+    min-height: 100%;
+
+}
+
+#change-background{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.change-background-button{
+    background-color: white;
+    width: 50px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 0 50px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.change-background-button:hover{
+    background-color: rgb(191, 191, 191);
+
+}
+
+.change-background-button ion-icon{
+    color: black;
+    font-size: 22px;
+}
+
+
+.profile-content{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.profile-avatar{
+    position: absolute;
+    top: 260px;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white-color);
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+
+}
+
+#profile-avatar{
+    width: 150px;
+    height: 150px;
+    cursor: default;
+}
+
+#change-avatar{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    position: absolute;
+    align-items: end;
+    justify-content: end;
+}
+
+#change-avatar-button{
+    border-radius: 50%;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; 
+    height: 40px;
+}
+
+#change-avatar ion-icon{
+    color: var(--text-color);
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#change-avatar ion-icon:hover{
+    color: var(--h1-bg);
+
+}
+
+.profile-name{
+    margin-top: 45px;
+    font-size: 30px;
+}
